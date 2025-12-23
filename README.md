@@ -66,3 +66,61 @@ src/
 │   └── Footer/
 ├── App.jsx          # Main application component
 └── main.jsx         # Application entry point
+
+## 📦 Getting Started
+
+Follow the steps below to run the project locally.
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Kavinduk2/React-sample-University-site.git
+cd React-sample-University-site
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open **[http://localhost:5173](http://localhost:5173)** in your browser to view the application.
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated inside the `dist` folder.
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+- **Framework Preset:** Vite
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
+
+---
+
+## 👤 Author
+
+**Kavindu**
+
+- GitHub: [Kavinduk2](https://github.com/Kavinduk2)
+- Project Repository: https://github.com/Kavinduk2/React-sample-University-site
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please consider giving it a ⭐ on GitHub — it really helps and motivates future improvements!
