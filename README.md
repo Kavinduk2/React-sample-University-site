@@ -1,12 +1,54 @@
-# React + Vite
+🎓 Edusity - University Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, single-page educational institution website built with React and Vite. This project serves as a modern landing page for a university, featuring dynamic navigation, program details, campus galleries, and student testimonials.
 
-Currently, two official plugins are available:
+🚀 Live Demo: https://react-sample-university-site-fwbr.vercel.app/
+🌟 Features
+Responsive Navigation:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sticky navbar that changes styling on scroll for better visibility.
 
-## Expanding the ESLint configuration
+Smooth scroll navigation to different sections.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hero Section: High-impact landing area with a "call to action".
+
+Programs Showcase: Interactive cards displaying degree levels (Graduation, Masters, Post-Grad).
+
+Campus Gallery: A photo grid showcasing university facilities.
+
+Testimonials Slider: A carousel component for student reviews.
+
+Video Player Integration: (Ready for implementation in the About section).
+
+Contact Form: Layout for user inquiries.
+
+🛠️ Technologies Used
+Frontend Framework: React.js (v19)
+
+Build Tool: Vite
+
+Styling: CSS3 (Modular CSS)
+
+Deployment: Vercel
+
+State Management: React Hooks (useState, useEffect, useRef)
+
+📂 Project Structure
+Based on the repository:
+
+```
+src/
+├── assets/          # Images and icons
+├── Components/      # Modular React components
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Programs/
+│   ├── Title/
+│   ├── About/
+│   ├── Campus/
+│   ├── Testimonials/
+│   ├── Contact/
+│   └── Footer/
+├── App.jsx          # Main application component
+└── main.jsx         # Entry point
+```
