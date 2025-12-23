@@ -1,45 +1,60 @@
-🎓 Edusity - University Website
+# 🎓 Edusity – University Website
 
-A fully responsive, single-page educational institution website built with React and Vite. This project serves as a modern landing page for a university, featuring dynamic navigation, program details, campus galleries, and student testimonials.
+A fully responsive, single-page university landing website built using **React** and **Vite**.  
+This project demonstrates a modern UI design suitable for an educational institution, featuring smooth navigation, interactive sections, and a clean layout.
 
-🚀 Live Demo: https://react-sample-university-site-fwbr.vercel.app/
-🌟 Features
-Responsive Navigation:
+---
 
-Sticky navbar that changes styling on scroll for better visibility.
+## 🚀 Live Demo
+🔗 https://react-sample-university-site-fwbr.vercel.app/
 
-Smooth scroll navigation to different sections.
+---
 
-Hero Section: High-impact landing area with a "call to action".
+## 🌟 Features
 
-Programs Showcase: Interactive cards displaying degree levels (Graduation, Masters, Post-Grad).
+- **Responsive Navigation**
+  - Sticky navbar with style change on scroll
+  - Smooth scrolling between sections
 
-Campus Gallery: A photo grid showcasing university facilities.
+- **Hero Section**
+  - High-impact landing area with a clear call-to-action
 
-Testimonials Slider: A carousel component for student reviews.
+- **Programs Showcase**
+  - Interactive cards for:
+    - Graduation
+    - Masters
+    - Post-Graduate programs
 
-Video Player Integration: (Ready for implementation in the About section).
+- **Campus Gallery**
+  - Image grid showcasing university facilities and environment
 
-Contact Form: Layout for user inquiries.
+- **Testimonials Slider**
+  - Carousel displaying student feedback and reviews
 
-🛠️ Technologies Used
-Frontend Framework: React.js (v19)
+- **About Section**
+  - Video player integration (ready for implementation)
 
-Build Tool: Vite
+- **Contact Section**
+  - Clean contact form layout for inquiries
 
-Styling: CSS3 (Modular CSS)
+---
 
-Deployment: Vercel
+## 🛠️ Technologies Used
 
-State Management: React Hooks (useState, useEffect, useRef)
+- **Frontend Framework:** React.js (v19)
+- **Build Tool:** Vite
+- **Styling:** CSS3 (Modular CSS)
+- **State Management:** React Hooks (`useState`, `useEffect`, `useRef`)
+- **Deployment:** Vercel
 
-📂 Project Structure
-Based on the repository:
+---
 
-```
+## 📂 Project Structure
+
+```bash
 src/
 ├── assets/          # Images and icons
-├── Components/      # Modular React components
+├── Components/      # Reusable React components
 │   ├── Navbar/
 │   ├── Hero/
 │   ├── Programs/
@@ -50,5 +65,4 @@ src/
 │   ├── Contact/
 │   └── Footer/
 ├── App.jsx          # Main application component
-└── main.jsx         # Entry point
-```
+└── main.jsx         # Application entry point
